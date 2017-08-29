@@ -1,3 +1,9 @@
+/*
+Author: jbreyer
+Date: 20170825
+Description: Simple echo implementation in go
+*/
+
 package main
 
 import (
@@ -5,10 +11,10 @@ import (
 	"os"
 )
 
-func main(){
+func main() {
 	var s, sep string
 
-	for i:=1; i<len(os.Args); i++{
+	for i := 1; i < len(os.Args); i++ {
 		s += sep + os.Args[i]
 		sep = " "
 	}
