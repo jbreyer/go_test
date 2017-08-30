@@ -1,7 +1,7 @@
 /*
-Author: jbreyer
-Date: 20170825
-Description: Simple echo implementation in go
+Author: 		jbreyer
+Date: 			20170825
+Description: 	Simple echo implementation in go
 */
 
 package main
