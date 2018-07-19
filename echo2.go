@@ -1,23 +1,16 @@
-/*
-Author:			jbreyer
-Date:			20170829
-Purpose:		Go echo using slices
-*/
-
 package main
 
-import (
-	"fmt"
+import
+(
 	"os"
+	"fmt"
 )
 
-func main() {
+func main(){
 	s, sep := "", ""
-
-	for _, arg := range os.Args[1:] {
+	for _,arg := range os.Args[1:]{
 		s += sep + arg
 		sep = " "
 	}
-
 	fmt.Println(s)
 }
