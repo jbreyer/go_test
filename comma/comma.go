@@ -3,10 +3,10 @@ package comma
 import "strings"
 
 func Comma(s string) string{
-	dotstring := ""
+	dotString := ""
 
 	if dot := strings.LastIndex(s, "."); dot >= 0{
-		dotstring = s[dot:]
+		dotString = s[dot:]
 		s = s[:dot-1]
 	}
 
@@ -16,5 +16,5 @@ func Comma(s string) string{
 		return s
 	}
 
-	return Comma(s[:n-3]) + "," + s[n-3:] + dotstring
+	return Comma(s[:n-3]) + "," + s[n-3:] + dotString
 }
