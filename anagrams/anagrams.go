@@ -1,7 +1,7 @@
 /*
 	Author:          Julian Breyer
 	Date:            08/15/2018
-	Description:     Determines whether two words are anagrams and returns true if this is the case and false if not.
+	Description:     Determines whether two words are anagrams and returns true if this is the case and false if not.3
  */
 
 package anagrams
